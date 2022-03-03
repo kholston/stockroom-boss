@@ -1,0 +1,19 @@
+{
+  "name": "stockroom-boss",
+  "version": "1.0.0",
+  "description": "An Inventory Monitoring Application",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kholston/stockroom-boss.git"
+  },
+  "keywords": [],
+  "author": "Kenneth Holston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kholston/stockroom-boss/issues"
+  },
+  "homepage": "https://github.com/kholston/stockroom-boss#readme"
+}
