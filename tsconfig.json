@@ -9,7 +9,5 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "noImplicitAny": true,
-    "noEmit": true,
-    "isolatedModules": true
-  }
+    "noEmit": true  }
 }
