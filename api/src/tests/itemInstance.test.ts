@@ -1,3 +1,8 @@
+describe('Item Instance', () => {
+  test('Tests work', () => {
+    expect(1).toBe(1)
+  })
+})
 // before all tests
 // delete item instances in development database
 // create new item instances

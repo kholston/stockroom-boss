@@ -1,3 +1,8 @@
+describe('Manufacturer', () => {
+  test('Tests work', () => {
+    expect(1).toBe(1)
+  })
+})
 // before all tests
 // delete manufacturers in development database
 // create new manufacturers

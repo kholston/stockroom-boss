@@ -1,3 +1,8 @@
+describe('Site', () => {
+  test('Tests work', () => {
+    expect(1).toBe(1)
+  })
+})
 // before all tests
 // delete sites in development database
 // create new sites

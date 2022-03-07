@@ -1,3 +1,8 @@
+describe('Organization', () => {
+  test('Tests work', () => {
+    expect(1).toBe(1)
+  })
+})
 // before all tests
 // delete organizations in development database
 // create new organizations
