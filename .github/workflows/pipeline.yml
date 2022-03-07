@@ -34,3 +34,4 @@ jobs:
           healthcheck: "https://stockroom-boss.herokuapp.com/health"
           checkstring: "ok"
           rollbackonhealthcheckfailed: true
+          
