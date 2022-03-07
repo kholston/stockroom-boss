@@ -1,7 +1,7 @@
 import { config } from 'dotenv';
 config(); // setup env variables
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3003;
 // const MONGODB_URI =
 //   process.env.NODE_ENV === 'test'
 //     ? process.env.MONGODB_TEST_URI
