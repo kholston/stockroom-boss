@@ -11,6 +11,7 @@
     "format": "npm run lint && npm run pretty",
     "dev": "ts-node-dev ./src/index.ts",
     "build": "webpack --mode production",
+    "heroku-postbuild": "echo Skip build on Heroku",
     "start": "node ./build/server.js",
     "test": "jest --verbose --runInBand",
     "coverage": "jest --coverage --runInBand"
