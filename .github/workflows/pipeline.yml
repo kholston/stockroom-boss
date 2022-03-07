@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: '15.x'
       - name: install dependencies
-        run: npm installDeps
+        run: npm run installDeps
       - name: lint and format
         run: npm run format
       - name: test
