@@ -7,6 +7,6 @@ import app from './app';
 
 const server: http.Server = http.createServer(app);
 
-server.listen([config.PORT,'0.0.0.0'], () =>
+server.listen(config.PORT, () =>
   console.info(`Server running on port ${config.PORT}`)
 );
