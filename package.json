@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "An Inventory Monitoring Application",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "cd ./api && npm run deploy",
+    "testServer": "cd ./api && npm run test",
+    "start": "npm run server",
+    "test": "npm run testServer",
+    "build": "cd ./api && npm run build",
+    "format": "cd ./api && npm run format",
+    "installDeps": "cd ./api && npm run install"
   },
   "repository": {
     "type": "git",

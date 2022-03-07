@@ -7,11 +7,14 @@
     "ts-node": "ts-node",
     "babel": "babel ./src/index.ts --out-file dist/bundle.js",
     "lint": "eslint .",
-    "format": "prettier --write ./src",
+    "pretty": "prettier --write ./src",
+    "format": "npm run lint && npm run pretty",
     "dev": "ts-node-dev ./src/index.ts",
     "build": "webpack --mode production",
-    "start": "node ./build/bundle.js",
-    "test": "jest"
+    "start": "node ./build/server.js",
+    "deploy": "npm run build && npm run start",
+    "test": "jest --verbose --runInBand",
+    "coverage": "jest --coverage --runInBand"
   },
   "keywords": [],
   "author": "",

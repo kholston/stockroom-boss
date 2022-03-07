@@ -43,7 +43,7 @@ const config: Configuration = {
   ],
   output: {
     path: path.resolve(__dirname, "build"),
-    filename: "bundle.js",
+    filename: "server.js",
     clean: true
   },
 };
