@@ -9,7 +9,13 @@
     "test": "npm run testServer",
     "build": "cd ./api && npm run build",
     "format": "cd ./api && npm run format",
-    "installDeps": "cd ./api && npm install"
+    "serverDeps": "cd ./api && npm install",
+    "installDeps": "npm install && npm run serverDeps"
+    
+  },
+  "devDependencies": {
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
   },
   "repository": {
     "type": "git",

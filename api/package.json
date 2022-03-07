@@ -1,6 +1,6 @@
 {
   "name": "stockroom-boss-api",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "API backend for an Inventory Monitoring application",
   "private": true,
   "scripts": {
@@ -12,7 +12,6 @@
     "dev": "ts-node-dev ./src/index.ts",
     "build": "webpack --mode production",
     "start": "node ./build/server.js",
-    "deploy": "npm run build && npm run start",
     "test": "jest --verbose --runInBand",
     "coverage": "jest --coverage --runInBand"
   },
@@ -29,7 +28,6 @@
     "@types/jest": "^27.4.1",
     "@types/node": "^17.0.21",
     "@types/supertest": "^2.0.11",
-    "@types/webpack-dev-server": "^4.7.2",
     "@types/webpack-node-externals": "^2.5.3",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
@@ -48,7 +46,6 @@
     "typescript": "^4.6.2",
     "webpack": "^5.69.1",
     "webpack-cli": "^4.9.2",
-    "webpack-dev-server": "^4.7.4",
     "webpack-node-externals": "^3.0.0"
   },
   "dependencies": {
