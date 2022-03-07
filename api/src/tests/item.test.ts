@@ -1,8 +1,8 @@
 describe('Item', () => {
   test('Tests work', () => {
-    expect(1).toBe(1)
-  })
-})
+    expect(1).toBe(1);
+  });
+});
 // before all tests
 // delete items in development database
 // create new items

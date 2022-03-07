@@ -1,8 +1,8 @@
 describe('User', () => {
   test('Tests work', () => {
-    expect(1).toBe(1)
-  })
-})
+    expect(1).toBe(1);
+  });
+});
 // before all tests
 // delete users in development database
 // create new users

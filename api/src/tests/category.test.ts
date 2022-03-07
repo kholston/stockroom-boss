@@ -1,8 +1,8 @@
 describe('Category', () => {
   test('Tests work', () => {
-    expect(1).toBe(1)
-  })
-})
+    expect(1).toBe(1);
+  });
+});
 // before all tests
 // delete categories in development database
 // create new categories
