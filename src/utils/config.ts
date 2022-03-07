@@ -8,5 +8,5 @@ const PORT = process.env.PORT || 5001;
 //     : process.env.MONGODB_URI;
 
 export default {
-  PORT
+  PORT,
 };
