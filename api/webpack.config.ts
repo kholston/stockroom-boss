@@ -1,17 +1,12 @@
 import NodePolyfillPlugin from 'node-polyfill-webpack-plugin';
 import path from "path";
 import webpackNodeExternals from 'webpack-node-externals';
-import { Configuration as WebpackConfiguration, DefinePlugin } from "webpack";
-import  { Configuration as WebpackDevServerConfiguration } from "webpack-dev-server";
+import { Configuration , DefinePlugin } from "webpack";
 import { config as dotenv } from 'dotenv';
 
 const envVars = dotenv({
   path: path.join(__dirname, '.env')
 }).parsed;
-
-interface Configuration extends WebpackConfiguration {
-  devServer?: WebpackDevServerConfiguration;
-}
 
 const config: Configuration = {
   entry: "./src/index.ts",
