@@ -31,5 +31,7 @@ jobs:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_app_name: "stockroom-boss"
           heroku_email: "git.kholston@gmail.com"
-         
-
+          healthcheck: "https://stockroom-boss.herokuapp.com/health"
+          checkstring: "ok"
+          rollbackonhealthcheckfailed: true
+          
