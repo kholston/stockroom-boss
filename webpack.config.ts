@@ -1,12 +1,7 @@
 import NodePolyfillPlugin from 'node-polyfill-webpack-plugin';
 import path from "path";
 import webpackNodeExternals from 'webpack-node-externals';
-import { Configuration , DefinePlugin } from "webpack";
-import { config as dotenv } from 'dotenv';
-
-const envVars = dotenv({
-  path: path.join(__dirname, '.env')
-}).parsed;
+import { Configuration } from "webpack";
 
 const config: Configuration = {
   entry: "./src/index.ts",
@@ -31,10 +26,7 @@ const config: Configuration = {
     extensions: [".ts", ".js"],
   },
   plugins: [
-    new NodePolyfillPlugin(),
-    new DefinePlugin({
-      "process.env": envVars
-    })
+    new NodePolyfillPlugin()
   ],
   output: {
     path: path.resolve(__dirname, "build"),
